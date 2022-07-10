@@ -40,6 +40,6 @@ body {
   color: var(--clr-light-cyan);
 }
 
-.card div {
+.card button {
   background-color: var(--clr-neon-green);
 }
