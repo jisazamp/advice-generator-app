@@ -1,5 +1,11 @@
+import AdviceCard from './components/AdviceCard';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <AdviceCard />
+    </>
+  );
 };
 
 export default App;

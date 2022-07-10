@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --clr-dark-blue: #202733;
+  --clr-dark-grayish-blue: #313a48;
+  --clr-neon-green: #53ffaa;
+  --clr-light-cyan: #cee3e9;
+  --ff-manrope: 'Manrope', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--clr-dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--ff-manrope);
+}
+
+.card {
+  background-color: var(--clr-dark-grayish-blue);
+}
+
+.card p {
+  color: var(--clr-neon-green);
+}
+
+.card h1 {
+  color: var(--clr-light-cyan);
+}
+
+.card div {
+  background-color: var(--clr-neon-green);
+}
